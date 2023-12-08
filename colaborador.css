@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    background-image: url('medias/fundo2.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    height: 100%;
+}
+html, body {
+	width: 100%;
+	min-height: 100%;
+	margin: 0;
+}
+.btn-voltar{
+    display: flex;
+    justify-content: space-between;
+   
+    height: auto;
+    margin: auto;
+    margin-top: 1em;
+}
+.botao-voltar{
+    height: 30px;
+    width: auto;
+    margin: auto;
+
+}
+
+.logo-login{
+    width: 250px;
+    height: auto;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+}
+.img-logo{
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+#saudacao{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 900;
+}
+#saudacao-dia{color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.3em;
+    font-style: normal;
+    font-weight: 900;
+
+}
+#edit{
+    padding: 40px;
+}
+
+  .popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #ccc;
+    z-index: 9999;
+    align-items: center;
+    flex-direction: row;
+}
+#segunda{
+   
+    max-width: 20rem;
+    max-height: 200px;
+    flex-shrink: 0;
+    margin: auto;
+    display: none;
+    text-align: center;
+    background-color: #FFF;
+    flex-direction: row;
+    border: 1px solid #00092E;
+    border-radius: 5px;
+    
+}
+
+#terca{
+   
+    max-width: 20rem;
+    max-height: 200px;
+    flex-shrink: 0;
+    margin: auto;
+    display: none;
+    text-align: center;
+    background-color: #FFF;
+    flex-direction: row;
+    border: 1px solid #00092E;
+    border-radius: 5px;
+    
+}
+#quarta{
+   
+    max-width: 20rem;
+    max-height: 200px;
+    flex-shrink: 0;
+    margin: auto;
+    display: none;
+    text-align: center;
+    background-color: #FFF;
+    flex-direction: row;
+    border: 1px solid #00092E;
+    border-radius: 5px;
+    
+}
+#quinta{
+   
+    max-width: 20rem;
+    max-height: 200px;
+    flex-shrink: 0;
+    margin: auto;
+    display: none;
+    text-align: center;
+    background-color: #FFF;
+    flex-direction: row;
+    border: 1px solid #00092E;
+    border-radius: 5px;
+    
+}
+#sexta{
+   
+    max-width: 20rem;
+    max-height: 200px;
+    flex-shrink: 0;
+    margin: auto;
+    display: none;
+    text-align: center;
+    background-color: #FFF;
+    flex-direction: row;
+    border: 1px solid #00092E;
+    border-radius: 5px;
+    
+}
+#sabado{
+   
+    max-width: 20rem;
+    max-height: 200px;
+    flex-shrink: 0;
+    margin: auto;
+    display: none;
+    text-align: center;
+    background-color: #FFF;
+    flex-direction: row;
+    border: 1px solid #00092E;
+    border-radius: 5px;
+    
+}
+#domingo{
+   
+    max-width: 20rem;
+    max-height: 200px;
+    flex-shrink: 0;
+    margin: auto;
+    display: none;
+    text-align: center;
+    background-color: #FFF;
+    flex-direction: row;
+    border: 1px solid #00092E;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+#confira{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.cardapio{
+    margin: 0;
+    padding-left: 10px;
+    color: #00092E;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 900;
+}
+.cardapio1{
+    text-align: center;
+    color: #00092E;
+    font-family: Montserrat;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 900;
+}
+.comida{
+    margin: 0;
+    margin-left: 11px;
+color: #00092E;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+text-align: justify;
+}
+
+.calendario{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: Montserrat;
+    border-radius: 0.3125rem;
+    background: #1A2D80;
+    max-width: 12.75rem;
+    height: 3.25rem;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.calendario-link{
+    color: #FFF;
+    text-decoration: none;
+
+}
+.alertas{
+    max-width: 20rem;
+    height: 11.6875rem;
+    flex-shrink: 0;
+    margin: auto;
+        background-color: #FFF;
+    flex-direction: row;
+    border: 1px solid #00092E;
+    border-radius: 5px;
+    margin-bottom: 20px;}
+.alertas-do-dia{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #FFF;
+    flex-direction: row;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.digital{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding: 10px;
+}
+.logo-login{
+    width: 250px;
+    height: auto;
+    display: flex;
+
+    justify-content: center;
+
+}
+.saudaçãonome{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.3em;
+    font-style: normal;
+    font-weight: 900;
+}
+#sim{
+    color: #3CCC64;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+}
+#nao{
+    color: #FF001D;
+font-family: Montserrat;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+}
+#biometria{
+    max-width: 10rem;
+    max-height: 200px;
+
+    flex-shrink: 0;
+    margin: auto;
+    display: table;
+    text-align: center;
+    background-color: #FFF;
+    flex-direction: row;
+    border: 1px solid #00092E;
+    border-radius: 5px;
+}
+#biometria h1{
+    font-size: 15px;
+}
+#biometria h2{
+    font-size: 13px;
+}
+#biometria p{
+    font-size: 11px;
+   margin-right: 10px;
+    
+}
+.info{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-around;
+}
+#cardapio-confirm{
+max-width: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin:auto;
+}
+#presença{
+    text-align: center;
+    color: white;
+    font-family: Montserrat;
+}
+#cardapio-confirm a{
+    border-radius: 0.625rem;
+    background: #1A2D80;
+padding: 15px;
+color: #FFF;
+text-decoration: none;
+margin: auto;}
+.aaaa{
+    display: flex;
+}
+

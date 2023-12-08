@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    background-image: url('medias/fundo2.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+}
+.btn-voltar{
+    display: flex;
+    justify-content: space-between;
+   
+    height: auto;
+    margin: auto;
+    margin-top: 1em;
+}
+.botao-voltar{
+    height: 30px;
+    width: auto;
+    margin: auto;
+
+}
+
+.logo-login{
+    width: 250px;
+    height: auto;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+}
+.img-logo{
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    }
+    h2{
+        color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 800;
+    }
+#segunda{
+   
+    max-width: 250px;
+    max-height: 200px;
+    flex-shrink: 0;
+    margin: auto;
+    display: table;
+    text-align: center;
+    background-color: #FFF;
+    flex-direction: row;
+    border: 1px solid #00092E;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+
+#terca{
+   
+    max-width: 250px;
+    max-height: 200px;
+    flex-shrink: 0;
+    margin: auto;
+    display: table;
+    text-align: center;
+    background-color: #FFF;
+    flex-direction: row;
+    border: 1px solid #00092E;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+#quarta{
+   
+    max-width: 250px;
+    max-height: 200px;
+    flex-shrink: 0;
+    margin: auto;
+    display: table;
+    text-align: center;
+    background-color: #FFF;
+    flex-direction: row;
+    border: 1px solid #00092E;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+#quinta{
+   
+    max-width: 250px;
+    max-height: 200px;
+    flex-shrink: 0;
+    margin: auto;
+    display: table;
+    text-align: center;
+    background-color: #FFF;
+    flex-direction: row;
+    border: 1px solid #00092E;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+#sexta{
+    max-width: 250px;
+    max-height: 200px;
+    flex-shrink: 0;
+    margin: auto;
+    display: table;
+    text-align: center;
+    background-color: #FFF;
+    flex-direction: row;
+    border: 1px solid #00092E;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+#sabado{
+   
+    max-width: 250px;
+    max-height: 200px;
+    flex-shrink: 0;
+    margin: auto;
+    display: table;
+    text-align: center;
+    background-color: #FFF;
+    flex-direction: row;
+    border: 1px solid #00092E;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+#domingo{
+   
+    max-width: 250px;
+    max-height: 200px;
+    flex-shrink: 0;
+    margin: auto;
+    display: table;
+    text-align: center;
+    background-color: #FFF;
+    flex-direction: row;
+    border: 1px solid #00092E;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+.calendario {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    width: 200px;
+    height: 200px;
+    margin: auto;    
+    border: 1px solid #00092E;
+    background-color: #FFF;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .day {
+    text-align: center;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-size: 10px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .day:hover {
+    background-color: #000;
+    color: #FFF;
+    align-items: center;
+    
+  }
+  .cardapio{
+    margin: 0;
+    padding-left: 10px;
+    color: #00092E;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 900;
+}
+.cardapio1{
+    text-align: center;
+    color: #00092E;
+    font-family: Montserrat;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 900;
+}
+.comida{
+    margin: 0;
+    margin-left: 11px;
+color: #00092E;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+text-align: justify;
+}
+#img {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}

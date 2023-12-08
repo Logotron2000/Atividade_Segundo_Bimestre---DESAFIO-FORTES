@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>perfil</title>
+    <link rel="stylesheet" href="perfil.css">
+</head>
+<body>
+    <a id="linkVoltar" href="javascript:history.go(-1)">
+        <svg class="botao-voltar" xmlns="http://www.w3.org/2000/svg" width="47" height="45" viewBox="0 0 47 45" fill="none">
+            <path d="M43.7356 22.5531H3M3 22.5531L22.5531 3M3 22.5531L22.5531 42.1061" stroke="#1A2D80" stroke-width="4.88827" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        </a>
+         
+    <div class="img-logo">
+        <img class="logo-login" src="medias/logopng.png" alt="logofortes">
+    </div>
+    <div class="img-logo"><img src="medias/Ellipse 2.png" alt=""> 
+        
+        <svg class="cam" xmlns="http://www.w3.org/2000/svg" width="35" height="32" viewBox="0 0 35 32" fill="none">
+        <path d="M2 27.1663V11.4373C2 9.69998 3.40841 8.29157 5.14578 8.29157H5.93223C6.92238 8.29157 7.85476 7.82538 8.44885 7.03325L11.9407 2.37749C12.1189 2.13986 12.3986 2 12.6957 2H22.7622C23.0593 2 23.3389 2.13986 23.5172 2.37749L27.009 7.03325C27.6031 7.82538 28.5355 8.29157 29.5256 8.29157H30.312C32.0495 8.29157 33.4578 9.69998 33.4578 11.4373V27.1663C33.4578 28.9037 32.0495 30.312 30.312 30.312H5.14578C3.40841 30.312 2 28.9037 2 27.1663Z" stroke="#1A2D80" stroke-width="2.35934" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M17.7291 24.0205C21.2037 24.0205 24.0206 21.2036 24.0206 17.7289C24.0206 14.2542 21.2037 11.4373 17.7291 11.4373C14.2543 11.4373 11.4375 14.2542 11.4375 17.7289C11.4375 21.2036 14.2543 24.0205 17.7291 24.0205Z" stroke="#1A2D80" stroke-width="2.35934" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+       
+    </div>
+    <h1 class="nome">Editar perfil</h1>
+   
+    <form id="meuForm">
+      <input type="text" name="nome" placeholder="Seu Nome:">
+      <input type="text" name="cidade" placeholder="Sua cidade:">
+      <input type="text" name="estado" placeholder="Estado">
+      <input id="bio" type="text" name="biografia" placeholder="Biografia">
+      <input id="btnsalvar" type="button" value="Salvar mudanças" onclick="AlertaRedireciona()">
+    </form>
+    
+    <script>
+    function AlertaRedireciona() {
+      alert('Alterações feitas, redirecionando para a tela de login');
+      window.location.href = 'login.html';
+    }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

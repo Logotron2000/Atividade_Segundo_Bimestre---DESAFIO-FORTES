@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <a href="index.html">
+        <div class="btn-voltar">
+            <svg class="botao-voltar" xmlns="http://www.w3.org/2000/svg" width="47" height="45" viewBox="0 0 47 45" fill="none">
+                <path d="M43.7356 22.5531H3M3 22.5531L22.5531 3M3 22.5531L22.5531 42.1061" stroke="#1A2D80" stroke-width="4.88827" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </a>
+    <div class="img-logo">
+        <img class="logo-login" src="medias/logopng.png" alt="logofortes">
+    </div>
+       
+    <form class="formulario-text">
+        <h1>Bem vindo!</h1>
+        <div class="formulario">
+            <input type="text" placeholder="Insira seu e-mail" id="login">
+            <input type="password" placeholder="Insira sua senha..." id="senha">
+            <input type="submit" value="login" id="submit" onclick="logar(); return false;">
+        </div>
+    </form>    
+
+    <div class="esqueci">
+        <a class="esqueci-senha" href="esqueci.html">Esqueci minha senha</a>
+    </div>
+
+    
+    <div >
+        <p class="digital"><a href="biometria.html">Ver soluçao impressão digital</a></p>
+    </div>
+    
+    <div class="fale-conosco">
+        <a href="https://fortes.ind.br/fale-conosco/#" target="_blank">Fale conosco</a>
+        <p>+55 (27) 3325-8883</p>
+        <p>fortes@fortes.ind.br</p>
+    </div>
+
+    <script>
+        function logar() {
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value;
+            
+            if (login === "cliente@fortes.com.br" && senha === "1234") {
+                alert('Login de cliente bem-sucedido');
+                window.location.href = "colaborador.html"; 
+                return false;
+            } else if (login === "nutri@fortes.com.br" && senha === "1234") {
+                alert('Login de nutricionista bem-sucedido');
+                window.location.href = "nutri.html"; 
+                return false;
+            } else if (login === "gestor@fortes.com.br" && senha === "1234") {
+                alert('Login de Gestor bem-sucedido');
+                window.location.href = "gestor.html"; 
+                return false;
+            } else if (login === "fornecedor@fortes.com.br" && senha === "1234") {
+                alert('Login de Fornecedor bem-sucedido');
+                window.location.href = "fornecedor.html"; 
+                return false;
+            } else {
+                alert('Login ou senha incorretos');
+                return false;
+            }
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

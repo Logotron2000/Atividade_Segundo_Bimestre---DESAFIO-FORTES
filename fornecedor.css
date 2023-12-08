@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    background-image: url('medias/fundo2.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    height: 100%;
+}
+.btn-voltar{
+    display: flex;
+    justify-content: space-between;
+   
+    height: auto;
+    margin: auto;
+    margin-top: 1em;
+}
+.botao-voltar{
+    height: 30px;
+    width: auto;
+    margin: auto;
+
+}
+
+.logo-login{
+    width: 250px;
+    height: auto;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+}
+.img-logo{
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#saudacao{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 900;
+}
+#saudacao-dia{color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.3em;
+    font-style: normal;
+    font-weight: 900;
+
+}
+h3{
+    margin: 5px;
+    color: #00092E;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 900;
+
+}
+.input-label{
+    background-color: #FFF;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: auto;
+}
+.input{
+display: flex;
+align-items: center;
+padding: 10px;
+}
+#valor-refe{
+    max-height: 20px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+#quantia-refe{
+    max-height: 20px;
+    margin-right: 5px;
+}
+#calculo{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px 25px;
+    background-color: #00092E;
+    color: white;
+    
+}
+#resultado{
+    display: flex;
+    background-color: #FFF;
+    max-width: 300px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #00092E;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 900;
+}
